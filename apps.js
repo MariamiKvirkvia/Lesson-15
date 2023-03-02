@@ -32,3 +32,20 @@ switch(currentDay){
 for(let i = 0; i <= 150; i++){
     console.log(i);
 }
+
+// While
+
+let i = 0;
+while(i <= 100){
+    console.log(i);
+    i++;
+}
+
+// Do While
+
+i = 0;
+do{
+    console.log(i);
+    i++;
+}while(i <= 50);
+
