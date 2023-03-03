@@ -53,8 +53,22 @@ do{
 }while(i <= 50);
 
 
+// Using Loops to calculate squares of the numbers between 1 to 20, and push them into the array
+
+// Using For Loop
+let empty = [];
+for(i = 1; i <= 20; i++){
+    empty.push(i * i);
+}
+console.log(empty);
 
 
-
-
+// Using While Loop
+let square = [];
+let startNum = 1;
+while(startNum <= 20){
+    square.push(startNum * startNum);
+    startNum += 1;
+}
+console.log(square);
 
