@@ -29,39 +29,39 @@ switch(currentDay){
 
 
 // For Loop
-
-for(let i = 0; i <= 150; i++){
-    console.log(i);
+const myFor = [];
+for(let i = 0; i < 150; i++){
+    myFor.push(i);
 }
+console.log(myFor);
 
 
 // While Loop
-
+const myWhile = [];
 let i = 0;
-while(i <= 100){
-    console.log(i);
+while(i < 100){
     i++;
+    myWhile.push(i);
 }
+console.log(myWhile);
 
 
 // Do While Loop
-
+const myDoWhile = [];
 i = 0;
 do{
-    console.log(i);
+    myDoWhile.push(i);
     i++;
-}while(i <= 50);
-
+}while(i < 50);
+console.log(myDoWhile);
 
 // Using Loops to calculate squares of the numbers between 1 to 20, and push them into the array
-
 // Using For Loop
 let empty = [];
 for(i = 1; i <= 20; i++){
     empty.push(i * i);
 }
 console.log(empty);
-
 
 // Using While Loop
 let square = [];
