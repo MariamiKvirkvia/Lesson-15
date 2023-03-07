@@ -148,7 +148,7 @@ const currencies = [
 const currenciesLength = currencies.length;
 for(let i = 0; i < currenciesLength; i++){
     if(currencies[i].diff < 0){
-        console.log(currencies[i].name);
+        console.log(currencies[i].diff, currencies[i].name);
     }
 }
 
@@ -156,7 +156,7 @@ for(let i = 0; i < currenciesLength; i++){
 let a = 0;
 while(a < currencies.length){
     if(currencies[a].diff < 0){
-        console.log(currencies[a].name);
+        console.log(currencies[a].diff, currencies[a].name);
     }
     a++;
 }
