@@ -29,7 +29,7 @@ switch(currentDay){
 
 
 // For Loop
-const myFor = [];
+let myFor = [];
 for(let i = 0; i < 150; i++){
     myFor.push(i);
 }
@@ -37,7 +37,7 @@ console.log(myFor);
 
 
 // While Loop
-const myWhile = [];
+let myWhile = [];
 let i = 0;
 while(i < 100){
     i++;
@@ -47,7 +47,7 @@ console.log(myWhile);
 
 
 // Do While Loop
-const myDoWhile = [];
+let myDoWhile = [];
 i = 0;
 do{
     myDoWhile.push(i);
@@ -145,7 +145,7 @@ const currencies = [
 ];
 
 // Using For Loop
-const currenciesLength = currencies.length;
+let currenciesLength = currencies.length;
 for(let i = 0; i < currenciesLength; i++){
     if(currencies[i].diff < 0){
         console.log(currencies[i].name);
